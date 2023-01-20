@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  height: 750px;
+  border-radius: 15px;
+  background-color: aquamarine;
+}
+
+.Menu input, button {
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  margin:5px;
+}
+
+.Quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  height: 750px;
+  border-radius: 15px;
+  background-color: aquamarine;
+}
+
+.scorecard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 750px;
+    border-radius: 15px;
+    background-color: aquamarine;
+  }
